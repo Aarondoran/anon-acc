@@ -76,8 +76,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
-(1, 'owneraaron', 'aarondoran@outlook.ie', '$2y$10$1IwJ.E849i3WI8/1HIRTYeVWw5vb2KmyRrlqZmXERhMNa0mhEMOsC'),
-(2, 'aarondoran@outlook.ie', 'aarondoran@outlook.ie', '$2y$10$chVwtcoWBXuSfKF2MC9D.ermuiayB60bXF16LgKZo1dv5axgcMwKW');
+(1, 'username1', 'example@example.com', 'coolpassowrd'),
+(2, 'username2', 'email@myemail.com', 'coolweb');
 
 --
 -- Indexes for dumped tables
