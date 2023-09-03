@@ -1,0 +1,147 @@
+/* Add this CSS to style your Main Page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the post container */
+.post-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the thumbs up and thumbs down buttons */
+.thumb-button {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Style the comments section */
+.comments {
+    margin-top: 10px;
+}
+
+.comment {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.comment-text {
+    margin-top: 5px;
+}
+
+/* Style the post form */
+.post-form {
+    margin-top: 20px;
+}
+
+.post-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.post-form input[type="file"] {
+    margin-top: 10px;
+}
+
+/* Style the submit button */
+#postButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#postButton:hover {
+    background-color: #0056b3;
+}
+
+.navbar {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+    border-radius: 3px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        margin: 5px 0;
+    }
+}
+.content {
+    margin-top: 70px; /* Adjust the value to match the height of your navbar */
+}
